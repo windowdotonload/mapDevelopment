@@ -48,6 +48,17 @@
                     }
                     ]
                 });
+                var centerLatLng = map.getCenter();
+                console.log(centerLatLng)
+                // setInterval(() => {
+                //     markerLayer.updateGeometries([
+                //         {
+                //             "styleId": "marker",
+                //             "id": "1",
+                //             "position": new TMap.LatLng(centerLatLng.lat++, centerLatLng.lng++),
+                //         }
+                //     ])
+                // }, 1000)
             }
             initMap()
         }
